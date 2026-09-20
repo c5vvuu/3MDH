@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#primaryGradient)" stroke-width="8" opacity="0.6" stroke-dasharray="12 12" />
+  
+  <!-- Central Shield / Diamond Badge -->
+  <path d="M 256 80 L 390 150 L 390 280 C 390 370 256 430 256 430 C 256 430 122 370 122 280 L 122 150 Z" fill="url(#primaryGradient)" />
+  <path d="M 256 95 L 375 160 L 375 275 C 375 355 256 412 256 412 C 256 412 137 355 137 275 L 137 160 Z" fill="#0f172a" />
+
+  <!-- Digital Bolt / Shopping Diamond -->
+  <path d="M 270 160 L 200 270 L 250 270 L 235 360 L 320 245 L 270 245 Z" fill="url(#primaryGradient)" />
+  
+  <!-- Small Star Accents -->
+  <circle cx="190" cy="190" r="6" fill="#38bdf8" />
+  <circle cx="330" cy="310" r="6" fill="#818cf8" />
+</svg>

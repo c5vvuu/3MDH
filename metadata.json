@@ -1,0 +1,6 @@
+{
+  "name": "3mdh store - عمده ستور",
+  "description": "متجر عمده ستور (3mdh.store) المتكامل لبيع خدمات السوشيال ميديا، الاشتراكات الرسمية، مفاتيح البرامج، الباقات، مع دعم PayPal وطرق الدفع اليدوية المتعددة (محافظ الأردن، بينانس باي، ريدوت باي) ولوحة تحكم شاملة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
